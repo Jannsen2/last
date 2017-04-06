@@ -16,7 +16,7 @@
 	<gap:plugin name="cordova-plugin-file" source="npm" />
 	<gap:plugin name="cordova-plugin-media" source="npm" />
 		
-	<preference name="phonegap-version" value="cli-6.4.0" />
+	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="fullscreen" value="true" />
 	
 	<preference name="android-minSdkVersion" value="14" />
