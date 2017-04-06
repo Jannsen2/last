@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="Ionics Shop Inventory "  version = "1.0.0">
+
+	<name>Ionics SHOP INVENTORY </name>
+    <description>Finals</description>
+    <author>IONICS</author>
+	
+	<gap:platforms>
+		<gap:platform name="android" />
+	</gap:platforms>
+	
+	<icon src="warehouse-inventory-icon-6.png" gap:role="default" />
+		
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	
+	<gap:plugin name="cordova-plugin-file" source="npm" />
+	<gap:plugin name="cordova-plugin-media" source="npm" />
+		
+	<preference name="phonegap-version" value="cli-6.4.0" />
+	<preference name="fullscreen" value="true" />
+	
+	<preference name="android-minSdkVersion" value="14" />
+</widget>
